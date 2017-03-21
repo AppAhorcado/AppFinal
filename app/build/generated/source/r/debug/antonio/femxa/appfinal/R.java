@@ -1948,8 +1948,8 @@ containing a value of this type.
         public static final int always=0x7f0d001d;
         public static final int beginning=0x7f0d001a;
         public static final int boton1=0x7f0d005a;
-        public static final int boton_derrota_inicio=0x7f0d005c;
-        public static final int boton_victoria_inicio=0x7f0d0067;
+        public static final int boton_derrota_inicio=0x7f0d005d;
+        public static final int boton_victoria_inicio=0x7f0d0068;
         public static final int bottom=0x7f0d0022;
         public static final int btnImagen=0x7f0d0058;
         public static final int buttonPanel=0x7f0d002e;
@@ -1975,9 +1975,9 @@ containing a value of this type.
         public static final int icon_group=0x7f0d007c;
         public static final int ifRoom=0x7f0d001f;
         public static final int image=0x7f0d0029;
-        public static final int imagenDerrota=0x7f0d005f;
+        public static final int imagenDerrota=0x7f0d005c;
         public static final int imagenes_ahorcado=0x7f0d0060;
-        public static final int imagenvictoria=0x7f0d006a;
+        public static final int imagenvictoria=0x7f0d0067;
         public static final int info=0x7f0d0078;
         public static final int letra1=0x7f0d0083;
         public static final int line1=0x7f0d007d;
@@ -2038,10 +2038,10 @@ containing a value of this type.
         public static final int text2=0x7f0d007e;
         public static final int textSpacerNoButtons=0x7f0d0035;
         public static final int textSpacerNoTitle=0x7f0d0034;
-        public static final int text_palabra=0x7f0d005d;
+        public static final int text_palabra=0x7f0d005f;
         public static final int text_palabra_oculta=0x7f0d005e;
-        public static final int text_palabra_oculta_victoria=0x7f0d0068;
-        public static final int text_palabra_victoria=0x7f0d0069;
+        public static final int text_palabra_oculta_victoria=0x7f0d0069;
+        public static final int text_palabra_victoria=0x7f0d006a;
         public static final int time=0x7f0d0076;
         public static final int title=0x7f0d002d;
         public static final int titleDividerNoCustom=0x7f0d003c;

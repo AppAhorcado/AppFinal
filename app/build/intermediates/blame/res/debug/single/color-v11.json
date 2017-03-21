@@ -1,18 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Administrador\\AndroidStudioProjects\\AppFinal - copia\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\Administrador\\AndroidStudioProjects\\AppFinal - copia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/nirabethencourt/.android/build-cache/2bc9f48b9f2674b6011e48cb403ff2861667d793/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Administrador\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\Administrador\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrador\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\Administrador\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrador\\AndroidStudioProjects\\AppFinal - copia\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\Administrador\\AndroidStudioProjects\\AppFinal - copia\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/nirabethencourt/.android/build-cache/2bc9f48b9f2674b6011e48cb403ff2861667d793/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     }
 ]

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Administrador\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,31 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Administrador\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\exploded-aar\\com.android.support.test\\rules\\0.5\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\Administrador\\AndroidStudioProjects\\AppFinal - copia\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "C:\\Users\\Administrador\\AndroidStudioProjects\\AppFinal - copia\\app\\build\\intermediates\\exploded-aar\\com.android.support.test\\rules\\0.5\\res\\values\\values.xml",
+                    "file": "/Users/nirabethencourt/.android/build-cache/9b84a887a0f355c445dcd27618ff272cc957a31f/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

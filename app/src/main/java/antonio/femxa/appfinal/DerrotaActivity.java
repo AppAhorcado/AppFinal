@@ -83,9 +83,9 @@ public class DerrotaActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
-        Intent intent = new Intent(DerrotaActivity.this, TableroActivity.class);
+        Intent intent = new Intent(DerrotaActivity.this, CategoriaActivity.class);
 
         startActivity(intent);
+        finish();
     }
 }

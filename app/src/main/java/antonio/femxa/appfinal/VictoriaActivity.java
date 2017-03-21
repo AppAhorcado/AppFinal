@@ -79,10 +79,12 @@ public class VictoriaActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
-        Intent intent = new Intent(VictoriaActivity.this, TableroActivity.class);
+
+        Intent intent = new Intent(VictoriaActivity.this, CategoriaActivity.class);
 
         startActivity(intent);
+
+        finish();
     }
 
 }

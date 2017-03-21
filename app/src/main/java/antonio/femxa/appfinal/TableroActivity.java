@@ -23,7 +23,7 @@ public class TableroActivity extends AppCompatActivity {
     private static int contador_aciertos;
     private static Intent intent;
     private static boolean sonidoOnOff;
-      MediaPlayer mediaPlayer;
+    private MediaPlayer mediaPlayer;
 
 
 
@@ -447,5 +447,11 @@ public class TableroActivity extends AppCompatActivity {
         }
 
         return contador;
+    }
+    
+     @Override
+    protected void onPause() {
+        super.onPause();
+        mediaPlayer.stop();
     }
 }

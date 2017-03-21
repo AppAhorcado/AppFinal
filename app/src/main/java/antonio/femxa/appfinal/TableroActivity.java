@@ -23,6 +23,7 @@ public class TableroActivity extends AppCompatActivity {
     private static int contador_aciertos;
     private static Intent intent;
     private static boolean sonidoOnOff;
+      MediaPlayer mediaPlayer;
 
 
 
@@ -30,7 +31,33 @@ public class TableroActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tablero);
+///////// sonido
+           mediaPlayer = MediaPlayer.create(this, R.raw.durantejugar);
+        mediaPlayer.setLooping(true);
+        mediaPlayer.setVolume(100, 100);
+        mediaPlayer.start();
 
+        View v = findViewById(R.id.btnImagen);
+        final ImageButton ib = (ImageButton) v;
+
+        ib.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                if(mediaPlayer.isPlaying())
+                {
+                    mediaPlayer.pause();
+                    ib.setImageResource(R.drawable.ic_volume_off);
+                }else {
+
+                    ib.setImageResource(R.drawable.ic_volume_up);
+                    mediaPlayer.start();
+
+
+                }
+            }
+        });
+        //////////
         contador = 0;
         contador_aciertos = 0;
 

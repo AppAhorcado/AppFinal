@@ -7,6 +7,12 @@
     android:orientation="vertical"
     android:background="@drawable/fondo_juego_3"
     tools:context="antonio.femxa.appfinal.TableroActivity">
+        <ImageButton
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnImagen"
+        android:src="@drawable/ic_volume_up"/>
 
     <ImageView
         android:layout_width="match_parent"

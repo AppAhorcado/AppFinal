@@ -45,8 +45,8 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
 
         musicaOnOff = getIntent().getBooleanExtra("SonidoOn-Off",true);
 
-        /*
-        mediaPlayer = MediaPlayer.create(this, R.raw.sonido1);
+        
+        mediaPlayer = MediaPlayer.create(this, R.raw.inicio);
         mediaPlayer.setLooping(true);
         mediaPlayer.setVolume(100, 100);
 
@@ -55,7 +55,7 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
             mediaPlayer.start();
         }
 
-        ponerMusica();*/
+        ponerMusica();
     }
 
     public void abrirCreditos (View v)
@@ -70,10 +70,10 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
         View v = findViewById(R.id.btnImagen);
         final ImageButton ib = (ImageButton) v;
 
-       /* mediaPlayer.stop();
+       mediaPlayer.stop();
 
         if(!musicaOnOff)
-            ib.setImageResource(R.drawable.ic_volume_off);*/
+            ib.setImageResource(R.drawable.ic_volume_up);
     }
 
     /**
@@ -116,14 +116,14 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
 
             intent.putExtra("palabra_clave",palabra);
 
-            /*if(musicaOnOff)
+            if(musicaOnOff)
             {
                 intent.putExtra("SonidoOn-Off",true);
             }
             else
             {
                 intent.putExtra("SonidoOn-Off",false);
-            }*/
+            }
 
             startActivity(intent);
         }
@@ -165,7 +165,7 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
 
     }
 
-/*
+
      public void ponerMusica() {
         super.onStart();
 
@@ -179,14 +179,14 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
             public void onClick(View v) {
                 if(mediaPlayer.isPlaying())
                 {
-                    mediaPlayer.stop();
-                    ib.setImageResource(R.drawable.ic_volume_up);
+                    mediaPlayer.pause();
+                    ib.setImageResource(R.drawable.ic_volume_off);
                     musicaOnOff = false;
                 }
                 else
                 {
-                    ib.setImageResource(R.drawable.ic_volume_off);
-                    mediaPlayer = MediaPlayer.create(CategoriaActivity.this, R.raw.sonido1);
+                    ib.setImageResource(R.drawable.ic_volume_up);
+                    mediaPlayer = MediaPlayer.create(CategoriaActivity.this, R.raw.inicio);
                     mediaPlayer.setLooping(true);
                     mediaPlayer.setVolume(100, 100);
                     mediaPlayer.start();
@@ -194,5 +194,5 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
                 }
             }
         });
-    }*/
+    }
 }

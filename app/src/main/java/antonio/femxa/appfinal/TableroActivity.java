@@ -33,14 +33,30 @@ public class TableroActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tablero);
-///////// sonido
-           mediaPlayer = MediaPlayer.create(this, R.raw.durantejugar);
-        mediaPlayer.setLooping(true);
-        mediaPlayer.setVolume(100, 100);
-        mediaPlayer.start();
-
         View v = findViewById(R.id.btnImagen);
         final ImageButton ib = (ImageButton) v;
+
+        contador = 0;
+        contador_aciertos = 0;
+
+        palabra = getIntent().getStringExtra("palabra_clave");
+
+///////// sonido
+
+        mediaPlayer = MediaPlayer.create(this, R.raw.durantejugar);
+        mediaPlayer.setLooping(true);
+        mediaPlayer.setVolume(100, 100);
+
+        sonidoOnOff = getIntent().getBooleanExtra("SonidoOn-Off",true);
+
+        if(sonidoOnOff)
+        {
+            mediaPlayer.start();
+        }
+        else
+        {
+            ib.setImageResource(R.drawable.ic_volume_off);
+        }
 
         ib.setOnClickListener(new View.OnClickListener() {
 
@@ -50,22 +66,14 @@ public class TableroActivity extends AppCompatActivity {
                 {
                     mediaPlayer.pause();
                     ib.setImageResource(R.drawable.ic_volume_off);
-                }else {
-
+                }else
+                {
                     ib.setImageResource(R.drawable.ic_volume_up);
                     mediaPlayer.start();
-
-
                 }
             }
         });
-        //////////
-        contador = 0;
-        contador_aciertos = 0;
 
-        palabra = getIntent().getStringExtra("palabra_clave");
-
-        sonidoOnOff = getIntent().getBooleanExtra("SonidoOn-Off",true);
 
         palabraAux = palabra;
 

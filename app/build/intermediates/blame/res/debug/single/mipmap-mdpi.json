@@ -6,5 +6,9 @@
     {
         "merged": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
         "source": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrador\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Administrador\\AndroidStudioProjects\\AppFinal\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]

@@ -46,6 +46,11 @@
         <item>sky</item>
         <item>golf</item>
         <item>futbol</item>
+        <item>boxeo</item>
+        <item>futbol sala</item>
+        <item>escalada</item>
+        <item>polo</item>
+        <item>hipica</item>
 
     </string-array>
     <string-array name="eñe_palabras">
@@ -59,19 +64,26 @@
         <item>ponzoña</item>
         <item>estaño</item>
         <item>contraseña</item>
+        <item>aliño</item>
+        <item>campiña</item>
+        <item>champiñon</item>
+        <item>piñones</item>
 
     </string-array>
     <string-array name="famosos">
-        <item>justin bieber</item>
+        <item>bruce willis</item>
         <item>matt damon</item>
         <item>dwayne johnson</item>
         <item>asthon kutcher</item>
-        <item>justin timberlake</item>
-        <item>Arnold Schwarzenegger</item>
+        <item>nicola tesla</item>
+        <item>nicolas cage</item>
         <item>russel crowe</item>
         <item>wynona ryder</item>
         <item>leonardo dicaprio</item>
         <item>george clooney</item>
+        <item>antonio banderas</item>
+        <item>will smith</item>
+        <item>mel gibson</item>
 
     </string-array>
     <string-array name="fruta">
@@ -85,33 +97,44 @@
         <item>pomelo</item>
         <item>nispero</item>
         <item>higo</item>
+        <item>aguacate</item>
+        <item>caqui</item>
+        <item>nectarina</item>
 
 
     </string-array>
     <string-array name="lugares">
-        <item>republica democratica del congo</item>
-        <item>san vicente y las granadinas</item>
-        <item>san cristobal y las nieves</item>
-        <item>miratos arabes unidos</item>
+        <item>plaza españa</item>
+        <item>alhambra de granada</item>
+        <item>cuevas de altamira</item>
+        <item>playa de la concha</item>
         <item>trinidad y tobago</item>
-        <item>antigua y barbuda</item>
+        <item>gran muralla china</item>
         <item>papua nueva guinea</item>
-        <item>liechtenstein</item>
-        <item>turkmenistan</item>
+        <item>cala Macarella</item>
+        <item>guggenheim</item>
         <item>sri lanka</item>
+        <item>el teide</item>
+        <item>la cibeles</item>
+        <item>las médulas</item>
 
     </string-array>
     <string-array name="peliculas">
-        <item>star wars el despertar de la fuerza</item>
+        <item/>
         <item>cincuenta sombras de grey</item>
-        <item>abierto hasta el amanecer</item>
-        <item>mambrechito and friends</item>
+        <item>airbag</item>
+        <item>zona hostil</item>
         <item>resacon  en las vegas</item>
-        <item>hijos de los hombres</item>
+        <item>el lobo de wall street</item>
         <item>el diario de noa</item>
         <item>brokeback mountain</item>
         <item>million dollar baby</item>
         <item>matrix reloaded</item>
+        <item>enigma</item>
+        <item>el mito de bourne</item>
+        <item>psicosis</item>
+        <item>seven</item>
+
     </string-array>
     <color name="notification_action_color_filter">@color/secondary_text_default_material_light</color>
     <dimen name="notification_content_margin_start">0dp</dimen>

@@ -40,12 +40,12 @@
         "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/drawable-xxxhdpi/winner19.png"
     },
     {
-        "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_pierna.png",
-        "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/drawable-xxxhdpi/ic_pierna.png"
-    },
-    {
         "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/gameover19.png",
         "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/drawable-xxxhdpi/gameover19.png"
+    },
+    {
+        "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_pierna.png",
+        "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/drawable-xxxhdpi/ic_pierna.png"
     },
     {
         "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/winner5.png",
@@ -64,20 +64,20 @@
         "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/drawable-xxxhdpi/gameover15.png"
     },
     {
-        "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/gameover23.png",
-        "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/drawable-xxxhdpi/gameover23.png"
-    },
-    {
         "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_brazo.png",
         "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/drawable-xxxhdpi/ic_brazo.png"
     },
     {
-        "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/gameover18.png",
-        "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/drawable-xxxhdpi/gameover18.png"
+        "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/gameover23.png",
+        "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/drawable-xxxhdpi/gameover23.png"
     },
     {
         "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/winner17.png",
         "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/drawable-xxxhdpi/winner17.png"
+    },
+    {
+        "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/gameover18.png",
+        "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/drawable-xxxhdpi/gameover18.png"
     },
     {
         "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/winner11.png",

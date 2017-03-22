@@ -32,6 +32,8 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
 
         loadSpinnerCategorias();
 
+
+
     }
 
     /**
@@ -88,6 +90,8 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
         this.spCategorias.setAdapter(adapter);
 
         this.spCategorias.setOnItemSelectedListener(this);
+
+
     }
 
     /**
@@ -112,9 +116,15 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
 
             Log.d("MENSAJE2",palabra);
 
+
             intent = new Intent(CategoriaActivity.this, TableroActivity.class);
 
             intent.putExtra("palabra_clave",palabra);
+
+            Spinner spinner = (Spinner) findViewById(R.id.spinner_categorias);
+
+            String aa = spinner.getSelectedItem().toString();
+            intent.putExtra("categoria_seleccionada",aa);
 
             if(musicaOnOff)
             {

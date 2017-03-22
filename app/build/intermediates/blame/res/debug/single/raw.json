@@ -1,30 +1,50 @@
 [
     {
-        "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/raw/sonido_ganador.mp3",
-        "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/raw/sonido_ganador.mp3"
+        "merged": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sonido2.mp3",
+        "source": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\src\\main\\res\\raw\\sonido2.mp3"
     },
     {
-        "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/raw/durantejugar.mp3",
-        "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/raw/durantejugar.mp3"
+        "merged": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sonido_ganador.mp3",
+        "source": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\src\\main\\res\\raw\\sonido_ganador.mp3"
     },
     {
-        "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/raw/sonido_perdedor.mp3",
-        "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/raw/sonido_perdedor.mp3"
+        "merged": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\raw\\durantejugar.mp3",
+        "source": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\src\\main\\res\\raw\\durantejugar.mp3"
     },
     {
-        "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/raw/sonido2.mp3",
-        "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/raw/sonido2.mp3"
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sonido_perdedor.mp3",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\AppFinal\\app\\src\\main\\res\\raw\\sonido_perdedor.mp3"
     },
     {
-        "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/raw/soni.mp3",
-        "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/raw/soni.mp3"
+        "merged": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sonido1.mp3",
+        "source": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\src\\main\\res\\raw\\sonido1.mp3"
     },
     {
-        "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/raw/sonido1.mp3",
-        "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/raw/sonido1.mp3"
+        "merged": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sonido_perdedor.mp3",
+        "source": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\src\\main\\res\\raw\\sonido_perdedor.mp3"
     },
     {
-        "merged": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/res/merged/debug/raw/inicio.mp3",
-        "source": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/src/main/res/raw/inicio.mp3"
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\raw\\soni.mp3",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\AppFinal\\app\\src\\main\\res\\raw\\soni.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sonido_ganador.mp3",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\AppFinal\\app\\src\\main\\res\\raw\\sonido_ganador.mp3"
+    },
+    {
+        "merged": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\raw\\inicio.mp3",
+        "source": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\src\\main\\res\\raw\\inicio.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\raw\\inicio.mp3",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\AppFinal\\app\\src\\main\\res\\raw\\inicio.mp3"
+    },
+    {
+        "merged": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\raw\\soni.mp3",
+        "source": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\src\\main\\res\\raw\\soni.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\res\\merged\\debug\\raw\\durantejugar.mp3",
+        "source": "C:\\Users\\Usuario\\AndroidStudioProjects\\AppFinal\\app\\src\\main\\res\\raw\\durantejugar.mp3"
     }
 ]

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/nirabethencourt/AndroidStudioProjects/AppFinal/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+        "outputFile": "C:\\Users\\Usuario\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,31 @@
                     "endOffset": 163
                 },
                 "from": {
-                    "file": "/Users/nirabethencourt/.android/build-cache/2bc9f48b9f2674b6011e48cb403ff2861667d793/output/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "file": "C:\\Users\\Usuario\\.android\\build-cache\\631cde96c24f1c9056e6e4fe75771f0186e3a7b2\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 112,
+                        "endOffset": 163
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\nirabethencourt\\AndroidStudioProjects\\AppFinal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "C:\\Users\\nirabethencourt\\.android\\build-cache\\2bc9f48b9f2674b6011e48cb403ff2861667d793\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

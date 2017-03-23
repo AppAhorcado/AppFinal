@@ -143,21 +143,6 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
     public void onNothingSelected(AdapterView<?> parent) {
 
     }
-    @Override
-    public void onBackPressed() {
-//super.onBackPressed();
-
-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN)
-        {
-            finishAffinity();
-        }
-        else
-        {
-            finish();
-        }
-    }
-
-
 
     /**
      * Dado un array de strings te devuelve un string aleatorio de ese array

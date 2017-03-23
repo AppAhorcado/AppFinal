@@ -22,14 +22,19 @@ public class InicialActivity extends AppCompatActivity {
         mediaPlayer = MediaPlayer.create(this, R.raw.inicio1);
         mediaPlayer.setLooping(true);
         mediaPlayer.setVolume(100, 100);
-        mediaPlayer.start();
 
         ponerTexto();
 
-        musicaOnOff = true;
+        musicaOnOff = getIntent().getBooleanExtra("SonidoOn-Off",true);
 
         View v = findViewById(R.id.botonsonido);
         final Button ib = (Button) v;
+
+        if(musicaOnOff)
+        {
+            mediaPlayer.start();
+        }
+
 
         ib.setOnClickListener(new View.OnClickListener() {
 

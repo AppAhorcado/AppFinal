@@ -47,6 +47,8 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
 
         musicaOnOff = getIntent().getBooleanExtra("SonidoOn-Off",true);
 
+        View v = findViewById(R.id.btnImagen);
+        final ImageButton ib = (ImageButton) v;
         
         mediaPlayer = MediaPlayer.create(this, R.raw.inicio);
         mediaPlayer.setLooping(true);
@@ -55,15 +57,14 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
         if(musicaOnOff)
         {
             mediaPlayer.start();
+            ib.setImageResource(R.drawable.ic_volume_off);
+        }
+        else
+        {
+            ib.setImageResource(R.drawable.ic_volume_up);
         }
 
         ponerMusica();
-    }
-
-    public void abrirCreditos (View v)
-    {
-        Intent intent = new Intent(this, CreditosActivity.class);
-        startActivity(intent);
     }
 
     @Override
@@ -189,5 +190,23 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
                 }
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+//super.onBackPressed();
+
+        intent = new Intent(CategoriaActivity.this, InicialActivity.class);
+
+        if(musicaOnOff)
+        {
+            intent.putExtra("SonidoOn-Off",true);
+        }
+        else
+        {
+            intent.putExtra("SonidoOn-Off",false);
+        }
+
+        startActivity(intent);
     }
 }
